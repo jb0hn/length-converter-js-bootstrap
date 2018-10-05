@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Length Converter</title>
+</head>
+<body class="mt-5 bg-dark text-white">
+  <header>
+    <div class="container mb-4">
+      <h1 class="display-4 text-center">Length Converter</h1>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <input id="input" type="number" class="form-control form-control-lg" placeholder="Enter meters...">
+          </div>
+        </form>
+        <div id="output">
+          <div class="card bg-primary mb-2">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6">
+                  <h4>Milimeters:</h4>
+                </div>
+                <div class="col-6">
+                  <h4 id="milimeters"></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-success mb-2">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6">
+                  <h4>Centimeters:</h4>
+                </div>
+                <div class="col-6">
+                  <h4 id="centimeters"><h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6">
+                  <h4>Kilometers:</h4>
+                </div>
+                <div class="col-6">
+                  <h4 id="kilometers"></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
